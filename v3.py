@@ -67,7 +67,7 @@ def send_video(chat_id):
     else:
         bot.sendMessage(chat_id, 'Failed to capture the video.')
 
-bot = telepot.Bot('7067453611:AAETJIQTgUATD9c9eZgn5sY68of2Adw1G0Q')
+bot = telepot.Bot('Add Token Key here ')
 bot.message_loop(handle)        
 
 while True:
